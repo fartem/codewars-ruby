@@ -5,8 +5,6 @@ class EnsureQuestion
   end
 
   def result
-    return @input if @input.end_with?('?')
-
-    @input + '?'
+    @input.end_with?('?') ? @input : @input + '?'
   end
 end

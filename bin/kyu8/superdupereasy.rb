@@ -5,8 +5,6 @@ class SuperDuperEasy
   end
 
   def result
-    return 'Error' if @input.is_a? String
-
-    @input * 50 + 6
+    (@input.is_a? String) ? 'Error' : @input * 50 + 6
   end
 end

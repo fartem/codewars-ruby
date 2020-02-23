@@ -11,15 +11,6 @@ class BasicCalculator
   end
 
   def result
-    case @operation
-    when '+'
-      @first_value + @second_value
-    when '-'
-      @first_value - @second_value
-    when '*'
-      @first_value * @second_value
-    else
-      @first_value / @second_value
-    end
+    @first_value.send(@operation, @second_value)
   end
 end

@@ -1,3 +1,4 @@
+# https://www.codewars.com/kata/5808dcb8f0ed42ae34000031
 class SwitchItUp
   def initialize(input)
     @input = input
@@ -5,24 +6,15 @@ class SwitchItUp
 
   def result
     case @input
-    when 1
-      'One'
-    when 2
-      'Two'
-    when 3
-      'Three'
-    when 4
-      'Four'
-    when 5
-      'Five'
-    when 6
-      'Six'
-    when 7
-      'Seven'
-    when 8
-      'Eight'
-    else
-      'Nine'
+    when 1 then 'One'
+    when 2 then 'Two'
+    when 3 then 'Three'
+    when 4 then 'Four'
+    when 5 then 'Five'
+    when 6 then 'Six'
+    when 7 then 'Seven'
+    when 8 then 'Eight'
+    when 9 then 'Nine'
     end
   end
 end
