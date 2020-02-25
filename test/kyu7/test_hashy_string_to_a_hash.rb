@@ -1,17 +1,17 @@
 require 'test/unit'
-require_relative '../../bin/kyu7/hashystringtoahash.rb'
+require_relative '../../bin/kyu7/hashy_string_to_a_hash.rb'
 
 class HashyStringTest < Test::Unit::TestCase
   def test_result
     hsh = '{:a=>1, :b=>2, :c=>3}'
 
     assert_equal(
+      Hash,
       HashyString.new(hsh).result.class,
-      Hash
     )
     assert_equal(
-      HashyString.new(hsh).result,
-      { a: 1, b: 2, c: 3 }
+      { a: 1, b: 2, c: 3 },
+      HashyString.new(hsh).result
     )
   end
 end

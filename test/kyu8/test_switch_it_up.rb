@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu8/switchitup.rb'
+require_relative '../../bin/kyu8/switch_it_up.rb'
 
 class SwitchItUpTest < Test::Unit::TestCase
   def test_result

@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu8/filteroutthegeese.rb'
+require_relative '../../bin/kyu8/filter_out_the_geese.rb'
 
 class GreeseFilterTest < Test::Unit::TestCase
   def test_result

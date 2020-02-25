@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu8/superdupereasy.rb'
+require_relative '../../bin/kyu8/super_duper_easy.rb'
 
 class SuperDuperEasyTest < Test::Unit::TestCase
   def test_valid_input

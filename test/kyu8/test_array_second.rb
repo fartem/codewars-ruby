@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu8/arraysecond.rb'
+require_relative '../../bin/kyu8/array_second.rb'
 
 class ArraySecondTest < Test::Unit::TestCase
   def test_valid_output
