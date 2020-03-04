@@ -4,7 +4,7 @@ require_relative '../../bin/kyu7/without_the_letter_e.rb'
 class WithoutLetterETest < Test::Unit::TestCase
   def test_result
     assert_equal(
-      'There is no \'e\'.',
+      'There is no "e".',
       WithoutLetterE.new('actual').result
     )
     assert_equal(
