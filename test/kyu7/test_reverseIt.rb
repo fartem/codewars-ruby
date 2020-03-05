@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu7/reverseit.rb'
+require_relative '../../bin/kyu7/reverseIt.rb'
 
 class ReverseItTest < Test::Unit::TestCase
   def test_result

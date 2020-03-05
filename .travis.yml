@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - 2.6
+
+install:
+ - gem i rake rubocop
+
+script:
+  - rake
