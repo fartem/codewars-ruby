@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu7/find_duplicates.rb'
+require_relative '../../codewars/kyu7/find_duplicates.rb'
 
 class DuplicatesFinderTest < Test::Unit::TestCase
   def test_result

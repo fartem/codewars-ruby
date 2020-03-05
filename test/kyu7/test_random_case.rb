@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu7/random_case.rb'
+require_relative '../../codewars/kyu7/random_case.rb'
 
 class RandomCaseTest < Test::Unit::TestCase
   def test_result

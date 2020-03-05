@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu7/factorial.rb'
+require_relative '../../codewars/kyu7/factorial.rb'
 
 class FactorialTest < Test::Unit::TestCase
   def test_result

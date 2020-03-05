@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu8/convert_a_string_to_an_array.rb'
+require_relative '../../codewars/kyu8/convert_a_string_to_an_array.rb'
 
 class StringToArrayTest < Test::Unit::TestCase
   def test_result

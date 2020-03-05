@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu7/swap_the_head_and_the_tail.rb'
+require_relative '../../codewars/kyu7/swap_the_head_and_the_tail.rb'
 
 class SwapArrayTest < Test::Unit::TestCase
   def test_result

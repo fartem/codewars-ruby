@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu7/alphabetically_ordered.rb'
+require_relative '../../codewars/kyu7/alphabetically_ordered.rb'
 
 class AlphabeticallyOrderTest < Test::Unit::TestCase
   def test_result

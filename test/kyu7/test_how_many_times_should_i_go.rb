@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu7/how_many_times_should_i_go.rb'
+require_relative '../../codewars/kyu7/how_many_times_should_i_go.rb'
 
 class VisitTest < Test::Unit::TestCase
   def test_result

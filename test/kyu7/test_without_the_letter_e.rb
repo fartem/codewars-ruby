@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu7/without_the_letter_e.rb'
+require_relative '../../codewars/kyu7/without_the_letter_e.rb'
 
 class WithoutLetterETest < Test::Unit::TestCase
   def test_result

@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu7/get_list_sum_recursively.rb'
+require_relative '../../codewars/kyu7/get_list_sum_recursively.rb'
 
 class ListSumRecursivelyTest < Test::Unit::TestCase
   def test_result

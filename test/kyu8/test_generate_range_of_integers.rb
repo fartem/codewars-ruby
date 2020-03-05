@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu8/generate_range_of_integers.rb'
+require_relative '../../codewars/kyu8/generate_range_of_integers.rb'
 
 class RangeOfIntegersTest < Test::Unit::TestCase
   def test_result

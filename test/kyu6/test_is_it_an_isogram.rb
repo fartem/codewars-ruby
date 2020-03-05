@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu6/is_it_an_isogram.rb'
+require_relative '../../codewars/kyu6/is_it_an_isogram.rb'
 
 class IsIsogramTest < Test::Unit::TestCase
   def test_result

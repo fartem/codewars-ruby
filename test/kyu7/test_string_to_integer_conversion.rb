@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu7/string_to_integer_conversion.rb'
+require_relative '../../codewars/kyu7/string_to_integer_conversion.rb'
 
 class IntegerFromStringTest < Test::Unit::TestCase
   def test_integer

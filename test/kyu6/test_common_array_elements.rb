@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu6/common_array_elements.rb'
+require_relative '../../codewars/kyu6/common_array_elements.rb'
 
 class CommonArrayElementsTest < Test::Unit::TestCase
   def test_result

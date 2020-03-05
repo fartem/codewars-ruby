@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu8/basic_mathematical_operations.rb'
+require_relative '../../codewars/kyu8/basic_mathematical_operations.rb'
 
 class BasicCalculatorTest < Test::Unit::TestCase
   def test_addition

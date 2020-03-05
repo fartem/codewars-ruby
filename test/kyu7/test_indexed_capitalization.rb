@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu7/indexed_capitalization.rb'
+require_relative '../../codewars/kyu7/indexed_capitalization.rb'
 
 class IndexedCapitalizationTest < Test::Unit::TestCase
   def test_result

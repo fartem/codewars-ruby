@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu7/sorted_yes_no_how.rb'
+require_relative '../../codewars/kyu7/sorted_yes_no_how.rb'
 
 class SortTest < Test::Unit::TestCase
   def test_result

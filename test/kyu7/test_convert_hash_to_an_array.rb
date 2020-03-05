@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu7/convert_hash_to_an_array.rb'
+require_relative '../../codewars/kyu7/convert_hash_to_an_array.rb'
 
 class HashToArrayTest < Test::Unit::TestCase
   def test_result

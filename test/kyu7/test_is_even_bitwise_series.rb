@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu7/is_even_bitwise_series.rb'
+require_relative '../../codewars/kyu7/is_even_bitwise_series.rb'
 
 class IsEvenTest < Test::Unit::TestCase
   def test_result

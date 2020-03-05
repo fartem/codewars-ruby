@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu8/ensure_question.rb'
+require_relative '../../codewars/kyu8/ensure_question.rb'
 
 class EnsureQuestionTest < Test::Unit::TestCase
   def test_result

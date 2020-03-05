@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../bin/kyu8/reverse_list_order.rb'
+require_relative '../../codewars/kyu8/reverse_list_order.rb'
 
 class ReverseListOrderTest < Test::Unit::TestCase
   def test_result
