@@ -5,15 +5,15 @@ class SortTest < Test::Unit::TestCase
   def test_solution
     assert_equal(
       'yes, ascending',
-      Sort.new([1, 2]).type
+      Sort.new([1, 2]).solution
     )
     assert_equal(
       'yes, descending',
-      Sort.new([15, 7, 3, -8]).type
+      Sort.new([15, 7, 3, -8]).solution
     )
     assert_equal(
       'no',
-      Sort.new([4, 2, 30]).type
+      Sort.new([4, 2, 30]).solution
     )
   end
 end
