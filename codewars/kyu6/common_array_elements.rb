@@ -10,7 +10,7 @@ class CommonArrayElements
     @third_array = third_array
   end
 
-  def result
+  def solution
     first_common = @first_array - (@first_array - @second_array) - (@first_array - @third_array)
     second_common = @second_array - (@second_array - @first_array) - (@second_array - @third_array)
     third_common = @third_array - (@third_array - @first_array) - (@third_array - @second_array)

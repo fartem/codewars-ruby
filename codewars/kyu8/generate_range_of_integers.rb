@@ -10,7 +10,7 @@ class RangeOfIntegers
     @step = step
   end
 
-  def result
+  def solution
     (@minimum..@maximum).step(@step).to_a
   end
 end

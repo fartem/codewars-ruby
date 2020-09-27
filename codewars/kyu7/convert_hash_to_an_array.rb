@@ -4,7 +4,7 @@ class HashToArray
     @input = input
   end
 
-  def result
+  def solution
     @input.collect { |k, v| [k.to_s, v] }
   end
 end

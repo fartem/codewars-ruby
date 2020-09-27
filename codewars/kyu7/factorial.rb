@@ -4,7 +4,7 @@ class Factorial
     @input = input
   end
 
-  def result
+  def solution
     return 1 if @input < 2
 
     Array(1..@input).inject(:*)

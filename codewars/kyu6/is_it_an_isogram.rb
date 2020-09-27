@@ -4,7 +4,7 @@ class IsIsogram
     @input = input
   end
 
-  def result
+  def solution
     return false if invalid?(@input)
 
     @input.downcase.chars.select { |c| (97..122).include? c.ord }.inject(Hash.new(0)) { |h, v| h[v] += 1; h }.values.uniq.size == 1

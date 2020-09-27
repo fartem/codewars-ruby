@@ -2,26 +2,26 @@ require 'test/unit'
 require_relative '../../codewars/kyu7/without_the_letter_e.rb'
 
 class WithoutLetterETest < Test::Unit::TestCase
-  def test_result
+  def test_solution
     assert_equal(
       'There is no "e".',
-      WithoutLetterE.new('actual').result
+      WithoutLetterE.new('actual').solution
     )
     assert_equal(
       '',
-      WithoutLetterE.new('').result
+      WithoutLetterE.new('').solution
     )
     assert_equal(
       '1',
-      WithoutLetterE.new('English').result
+      WithoutLetterE.new('English').solution
     )
     assert_equal(
       '4',
-      WithoutLetterE.new('English exercise').result
+      WithoutLetterE.new('English exercise').solution
     )
     assert_equal(
       nil,
-      WithoutLetterE.new(nil).result
+      WithoutLetterE.new(nil).solution
     )
   end
 end

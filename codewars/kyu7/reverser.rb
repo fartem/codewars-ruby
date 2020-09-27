@@ -4,7 +4,7 @@ class Reverser
     @input = input
   end
 
-  def result
+  def solution
     output = 0
     while @input.positive?
       output *= 10

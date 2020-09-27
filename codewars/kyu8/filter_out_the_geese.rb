@@ -6,7 +6,7 @@ class GeeseFilter
     @input = input
   end
 
-  def result
+  def solution
     @input - @@geese
   end
 end

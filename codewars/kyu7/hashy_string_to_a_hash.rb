@@ -4,7 +4,7 @@ class HashyString
     @input = input
   end
 
-  def result
+  def solution
     eval(@input)
   end
 end

@@ -4,7 +4,7 @@ class ReverseFactorial
     @input = input
   end
 
-  def result
+  def solution
     output = 2
     while @input > 1
       @input /= output.to_f

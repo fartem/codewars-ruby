@@ -2,30 +2,30 @@ require 'test/unit'
 require_relative '../../codewars/kyu7/alphabetically_ordered.rb'
 
 class AlphabeticallyOrderTest < Test::Unit::TestCase
-  def test_result
+  def test_solution
     assert_equal(
       false,
-      AlphabeticallyOrder.new('asd').result
+      AlphabeticallyOrder.new('asd').solution
     )
     assert_equal(
       false,
-      AlphabeticallyOrder.new('codewars').result
+      AlphabeticallyOrder.new('codewars').solution
     )
     assert_equal(
       true,
-      AlphabeticallyOrder.new('door').result
+      AlphabeticallyOrder.new('door').solution
     )
     assert_equal(
       true,
-      AlphabeticallyOrder.new('cell').result
+      AlphabeticallyOrder.new('cell').solution
     )
     assert_equal(
       true,
-      AlphabeticallyOrder.new('z').result
+      AlphabeticallyOrder.new('z').solution
     )
     assert_equal(
       true,
-      AlphabeticallyOrder.new('').result
+      AlphabeticallyOrder.new('').solution
     )
   end
 end

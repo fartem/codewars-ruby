@@ -4,7 +4,7 @@ class AlphabeticallyOrder
     @input = input
   end
 
-  def result
+  def solution
     @input.split('').sort.join == @input
   end
 end

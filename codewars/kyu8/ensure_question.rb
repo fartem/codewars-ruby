@@ -4,7 +4,7 @@ class EnsureQuestion
     @input = input
   end
 
-  def result
+  def solution
     @input.end_with?('?') ? @input : @input + '?'
   end
 end

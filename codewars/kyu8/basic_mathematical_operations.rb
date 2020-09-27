@@ -10,7 +10,7 @@ class BasicCalculator
     @second_value = second_value
   end
 
-  def result
+  def solution
     @first_value.send(@operation, @second_value)
   end
 end

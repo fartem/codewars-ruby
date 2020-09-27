@@ -4,7 +4,7 @@ class SwapArray
     @input = input
   end
 
-  def result
+  def solution
     middle = (@input.size / 2.0).ceil
     if (@input.size % 2).zero?
       @input[middle, @input.size] + @input[0, middle]

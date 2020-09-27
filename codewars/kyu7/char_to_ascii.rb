@@ -4,7 +4,7 @@ class CharToASCII
     @input = input
   end
 
-  def result
+  def solution
     return nil if @input.empty?
 
     Hash[@input.scan(/[A-Za-z]/).collect { |c| [c, c.ord] }]

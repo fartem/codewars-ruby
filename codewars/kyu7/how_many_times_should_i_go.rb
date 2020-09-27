@@ -8,7 +8,7 @@ class Visit
     @individual_entry = individual_entry
   end
 
-  def times
+  def solution
     (@annual_price % @individual_entry).zero? ? @annual_price / @individual_entry : @annual_price / @individual_entry + 1
   end
 end

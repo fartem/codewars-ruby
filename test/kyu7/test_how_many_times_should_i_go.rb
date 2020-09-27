@@ -2,7 +2,7 @@ require 'test/unit'
 require_relative '../../codewars/kyu7/how_many_times_should_i_go.rb'
 
 class VisitTest < Test::Unit::TestCase
-  def test_result
+  def test_solution
     assert_equal(
       3,
       Visit.new(40, 15).times

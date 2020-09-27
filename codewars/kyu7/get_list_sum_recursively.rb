@@ -4,7 +4,7 @@ class ListSumRecursively
     @input = input
   end
 
-  def result
+  def solution
     sum(@input.size - 1)
   end
 

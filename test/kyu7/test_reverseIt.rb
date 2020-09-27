@@ -2,22 +2,22 @@ require 'test/unit'
 require_relative '../../codewars/kyu7/reverseIt.rb'
 
 class ReverseItTest < Test::Unit::TestCase
-  def test_result
+  def test_solution
     assert_equal(
       'olleH',
-      ReverseIt.new('Hello').result
+      ReverseIt.new('Hello').solution
     )
     assert_equal(
       951_413,
-      ReverseIt.new(314_159).result
+      ReverseIt.new(314_159).solution
     )
     assert_equal(
       '314159',
-      ReverseIt.new('951413').result
+      ReverseIt.new('951413').solution
     )
     assert_equal(
       [],
-      ReverseIt.new([]).result
+      ReverseIt.new([]).solution
     )
   end
 end

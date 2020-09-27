@@ -4,7 +4,7 @@ class SuperDuperEasy
     @input = input
   end
 
-  def result
+  def solution
     (@input.is_a? String) ? 'Error' : @input * 50 + 6
   end
 end

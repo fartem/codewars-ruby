@@ -4,7 +4,7 @@ class WithoutLetterE
     @input = input
   end
 
-  def result
+  def solution
     return nil if @input.nil?
     return @input if @input.empty?
 

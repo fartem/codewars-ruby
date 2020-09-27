@@ -5,7 +5,7 @@ class IndexedCapitalization
     @indices = indices
   end
 
-  def result
+  def solution
     @string.split('').each.with_index.map { |c, i| (@indices.include? i) ? c.upcase : c }.join
   end
 end

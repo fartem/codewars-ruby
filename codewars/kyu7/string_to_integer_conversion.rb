@@ -4,7 +4,7 @@ class IntegerFromString
     @input = input
   end
 
-  def result
+  def solution
     /\A\d+\z/ === @input.strip ? @input.to_i : 'NaN'
   end
 end

@@ -4,7 +4,7 @@ class RandomCase
     @input = input
   end
 
-  def result
+  def solution
     output = ''
     @input.split('').each { |c| output += (rand(10) % 2).zero? ? c.upcase : c.downcase }
     output

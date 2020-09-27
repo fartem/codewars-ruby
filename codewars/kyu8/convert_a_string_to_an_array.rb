@@ -4,7 +4,7 @@ class StringToArray
     @input = input
   end
 
-  def result
+  def solution
     @input.split(' ')
   end
 end

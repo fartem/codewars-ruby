@@ -4,7 +4,7 @@ class SwitchItUp
     @input = input
   end
 
-  def result
+  def solution
     case @input
     when 1 then 'One'
     when 2 then 'Two'

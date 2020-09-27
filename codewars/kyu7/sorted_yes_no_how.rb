@@ -4,7 +4,7 @@ class Sort
     @input = input
   end
 
-  def type
+  def solution
     array = @input
 
     return 'yes, ascending' if array == @input.sort

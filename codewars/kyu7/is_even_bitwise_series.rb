@@ -4,7 +4,7 @@ class IsEven
     @input = input
   end
 
-  def result
+  def solution
     (@input & 1).zero?
   end
 end

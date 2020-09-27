@@ -4,7 +4,7 @@ class DuplicatesFinder
     @input = input
   end
 
-  def result
+  def solution
     @input.uniq.select { |c| @input.count(c) > 1 }
   end
 end

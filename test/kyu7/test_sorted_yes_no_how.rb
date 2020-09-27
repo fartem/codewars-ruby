@@ -2,7 +2,7 @@ require 'test/unit'
 require_relative '../../codewars/kyu7/sorted_yes_no_how.rb'
 
 class SortTest < Test::Unit::TestCase
-  def test_result
+  def test_solution
     assert_equal(
       'yes, ascending',
       Sort.new([1, 2]).type

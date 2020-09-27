@@ -4,7 +4,7 @@ class ReverseIt
     @input = input
   end
 
-  def result
+  def solution
     input_type = @input.class
     return @input.reverse if input_type == String
     return @input.to_s.reverse.to_i if input_type == Integer

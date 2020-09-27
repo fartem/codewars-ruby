@@ -4,7 +4,7 @@ class ReverseListOrder
     @input = input
   end
 
-  def result
+  def solution
     @input.reverse
   end
 end
