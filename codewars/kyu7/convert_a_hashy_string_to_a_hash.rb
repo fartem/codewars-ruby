@@ -1,5 +1,5 @@
 # https://www.codewars.com/kata/57df097c1dbd8f971500003f
-class HashyString
+class ConvertAHashyStringToAHash
   def initialize(input)
     @input = input
   end

@@ -1,5 +1,5 @@
 # https://www.codewars.com/kata/54fdadc8762e2e51e400032c
-class IntegerFromString
+class StringToIntegerConversion
   def initialize(input)
     @input = input
   end

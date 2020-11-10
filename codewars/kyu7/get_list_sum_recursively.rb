@@ -1,5 +1,5 @@
 # https://www.codewars.com/kata/57a84137cf1fa5f9f80000d6
-class ListSumRecursively
+class GetListSumRecursively
   def initialize(input)
     @input = input
   end

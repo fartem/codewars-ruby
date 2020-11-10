@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../../codewars/kyu8/is_it_a_digit.rb'
+require_relative '../../codewars/kyu8/regexp_basics_is_it_a_digit.rb'
 
 class StringTest < Test::Unit::TestCase
   def test_true

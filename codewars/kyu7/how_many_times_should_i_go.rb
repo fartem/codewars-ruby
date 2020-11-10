@@ -1,5 +1,5 @@
 # https://www.codewars.com/kata/57efcb78e77282f4790003d8
-class Visit
+class HowManyTimesShouldIGo
   def initialize(
     annual_price,
     individual_entry

@@ -1,5 +1,5 @@
 # https://www.codewars.com/kata/57e76bc428d6fbc2d500036d
-class StringToArray
+class ConvertAStringToAnArray
   def initialize(input)
     @input = input
   end

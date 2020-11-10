@@ -1,5 +1,5 @@
 # https://www.codewars.com/kata/55eca815d0d20962e1000106
-class RangeOfIntegers
+class GenerateRangeOfIntegers
   def initialize(
     minimum,
     maximum,

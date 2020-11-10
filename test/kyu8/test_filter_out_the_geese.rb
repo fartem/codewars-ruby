@@ -5,19 +5,19 @@ class GreeseFilterTest < Test::Unit::TestCase
   def test_solution
     assert_equal(
       ['Mallard', 'Hook Bill', 'Crested', 'Blue Swedish'],
-      GeeseFilter.new(
+      FilterOutTheGeese.new(
         ['Mallard', 'Hook Bill', 'African', 'Crested', 'Pilgrim', 'Toulouse', 'Blue Swedish']
       ).solution
     )
     assert_equal(
       ['Mallard', 'Barbary', 'Hook Bill', 'Blue Swedish', 'Crested'],
-      GeeseFilter.new(
+      FilterOutTheGeese.new(
         ['Mallard', 'Barbary', 'Hook Bill', 'Blue Swedish', 'Crested']
       ).solution
     )
     assert_equal(
       [],
-      GeeseFilter.new(
+      FilterOutTheGeese.new(
         ['African', 'Roman Tufted', 'Toulouse', 'Pilgrim', 'Steinbacher']
       ).solution
     )

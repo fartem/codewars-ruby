@@ -1,5 +1,5 @@
 # https://www.codewars.com/kata/59557b2a6e595316ab000046
-class HashToArray
+class ConvertHashToAnArray
   def initialize(input)
     @input = input
   end

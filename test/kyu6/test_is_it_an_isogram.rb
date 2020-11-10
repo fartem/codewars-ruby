@@ -1,39 +1,39 @@
 require 'test/unit'
 require_relative '../../codewars/kyu6/is_it_an_isogram.rb'
 
-class IsIsogramTest < Test::Unit::TestCase
+class IsItAnIsogramTest < Test::Unit::TestCase
   def test_solution
     assert_equal(
       true,
-      IsIsogram.new('abcdefghijk').solution
+      IsItAnIsogram.new('abcdefghijk').solution
     )
     assert_equal(
       true,
-      IsIsogram.new('aabbccddeeffgg').solution
+      IsItAnIsogram.new('aabbccddeeffgg').solution
     )
     assert_equal(
       true,
-      IsIsogram.new('dermatoglyphics').solution
+      IsItAnIsogram.new('dermatoglyphics').solution
     )
     assert_equal(
       false,
-      IsIsogram.new('puppy').solution
+      IsItAnIsogram.new('puppy').solution
     )
     assert_equal(
       false,
-      IsIsogram.new('electoral college').solution
+      IsItAnIsogram.new('electoral college').solution
     )
     assert_equal(
       false,
-      IsIsogram.new('').solution
+      IsItAnIsogram.new('').solution
     )
     assert_equal(
       false,
-      IsIsogram.new(nil).solution
+      IsItAnIsogram.new(nil).solution
     )
     assert_equal(
       false,
-      IsIsogram.new(1).solution
+      IsItAnIsogram.new(1).solution
     )
   end
 end

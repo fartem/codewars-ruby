@@ -1,5 +1,5 @@
 # https://www.codewars.com/kata/58067088c27998b119000451
-class ReverseFactorial
+class ReverseFactorials
   def initialize(input)
     @input = input
   end

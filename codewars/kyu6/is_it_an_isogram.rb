@@ -1,5 +1,5 @@
 # https://www.codewars.com/kata/586d79182e8d9cfaba0000f1
-class IsIsogram
+class IsItAnIsogram
   def initialize(input)
     @input = input
   end
