@@ -15,7 +15,7 @@ Profile on Codewars: [fartem](https://www.codewars.com/users/fartem).
 | Name | Link to Codewars | Link to solution |
 | --- | --- | --- |
 | Array#second | [Link](https://www.codewars.com/kata/536c6f2349aa8b16520002e0) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu8/array_second.rb) |
-| Basic Mathematical Operations | [Link](https://www.codewars.com/kata/57356c55867b9b7a60000bd) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu8/basic_mathematical_operations.rb) |
+| Basic Mathematical Operations | [Link](https://www.codewars.com/kata/57356c55867b9b7a60000bd7) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu8/basic_mathematical_operations.rb) |
 | Convert a string to an array | [Link](https://www.codewars.com/kata/57e76bc428d6fbc2d500036d) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu8/convert_a_string_to_an_array.rb) |
 | Ensure question | [Link](https://www.codewars.com/kata/5866fc43395d9138a7000006) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu8/ensure_question.rb) |
 | Filter out the geese | [Link](https://www.codewars.com/kata/57ee4a67108d3fd9eb0000e7) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu8/filter_out_the_geese.rb) |
