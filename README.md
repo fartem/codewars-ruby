@@ -37,7 +37,7 @@ Profile on Codewars: [fartem](https://www.codewars.com/users/fartem).
 | Find Duplicates | [Link](https://www.codewars.com/kata/5558cc216a7a231ac9000022) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/find_duplicates.rb) |
 | Get list sum recursively | [Link](https://www.codewars.com/kata/57a84137cf1fa5f9f80000d6) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/get_list_sum_recursively.rb) |
 | How many times should I go? | [Link](https://www.codewars.com/kata/57efcb78e77282f4790003d8) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/how_many_times_should_i_go.rb) |
-| Indexed capitalization | [Link]https://www.codewars.com/kata/59cfc09a86a6fdf6df0000f1) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/indexed_capitalization.rb) |
+| Indexed capitalization | [Link](https://www.codewars.com/kata/59cfc09a86a6fdf6df0000f1) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/indexed_capitalization.rb) |
 | isEven? - Bitwise Series | [Link](https://www.codewars.com/kata/592a33e549fe9840a8000ba1) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/is_even_bitwise_series.rb) |
 | Random case | [Link](https://www.codewars.com/kata/57073869924f34185100036d) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/random_case.rb) |
 | reverseIt | [Link](https://www.codewars.com/kata/557a2c136b19113912000010) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/reverseIt.rb) |
