@@ -27,6 +27,8 @@ Profile on Codewars: [fartem](https://www.codewars.com/users/fartem).
 
 ### 7 kyu
 
+| Name | Link to Codewars | Link to solution |
+| --- | --- | --- |
 | Alphabetically ordered | [Link](https://www.codewars.com/kata/5a8059b1fd577709860000f6) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/alphabetically_ordered.rb) |
 | char_to_ascii | [Link](https://www.codewars.com/kata/55e9529cbdc3b29d8c000016) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/char_to_ascii.rb) |
 | Convert a Hashy String to a Hash | [Link](https://www.codewars.com/kata/57df097c1dbd8f971500003f) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/convert_a_hashy_string_to_a_hash.rb) |
@@ -48,5 +50,7 @@ Profile on Codewars: [fartem](https://www.codewars.com/users/fartem).
 
 ### 6 kyu
 
+| Name | Link to Codewars | Link to solution |
+| --- | --- | --- |
 | Common array elements | [Link](https://www.codewars.com/kata/5a6225e5d8e145b540000127) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu6/common_array_elements.rb) |
 | Is it an isogram? | [Link](https://www.codewars.com/kata/586d79182e8d9cfaba0000f1) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu6/is_it_an_isogram.rb) |
