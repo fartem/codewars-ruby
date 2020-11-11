@@ -6,6 +6,8 @@ class IndexedCapitalization
   end
 
   def solution
+    # rubocop:disable Style/TernaryParentheses
     @string.split('').each.with_index.map { |c, i| (@indices.include? i) ? c.upcase : c }.join
+    # rubocop:enable Style/TernaryParentheses
   end
 end

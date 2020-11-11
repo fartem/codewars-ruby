@@ -9,6 +9,8 @@ class HowManyTimesShouldIGo
   end
 
   def solution
+    # rubocop:disable Layout/LineLength
     (@annual_price % @individual_entry).zero? ? @annual_price / @individual_entry : @annual_price / @individual_entry + 1
+    # rubocop:enable Layout/LineLength
   end
 end

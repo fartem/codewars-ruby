@@ -4,6 +4,7 @@ class SwapTheHeadAndTheTail
     @input = input
   end
 
+  # rubocop:disable Metrics/AbcSize
   def solution
     middle = (@input.size / 2.0).ceil
     if (@input.size % 2).zero?
@@ -15,4 +16,5 @@ class SwapTheHeadAndTheTail
       output
     end
   end
+  # rubocop:enable Metrics/AbcSize
 end

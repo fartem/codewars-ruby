@@ -5,6 +5,8 @@ class SuperDuperEasy
   end
 
   def solution
+    # rubocop:disable Style/TernaryParentheses
     (@input.is_a? String) ? 'Error' : @input * 50 + 6
+    # rubocop:enable Style/TernaryParentheses
   end
 end

@@ -4,6 +4,7 @@ class SwitchItUp
     @input = input
   end
 
+  # rubocop:disable Metrics/CyclomaticComplexity, Metrics/MethodLength
   def solution
     case @input
     when 1 then 'One'
@@ -17,4 +18,5 @@ class SwitchItUp
     when 9 then 'Nine'
     end
   end
+  # rubocop:enable Metrics/CyclomaticComplexity, Metrics/MethodLength
 end

@@ -5,6 +5,8 @@ class EnsureQuestion
   end
 
   def solution
+    # rubocop:disable Style/StringConcatenation
     @input.end_with?('?') ? @input : @input + '?'
+    # rubocop:enable Style/StringConcatenation
   end
 end

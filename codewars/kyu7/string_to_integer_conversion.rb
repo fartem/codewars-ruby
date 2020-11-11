@@ -5,6 +5,8 @@ class StringToIntegerConversion
   end
 
   def solution
+    # rubocop:disable Style/CaseEquality
     /\A\d+\z/ === @input.strip ? @input.to_i : 'NaN'
+    # rubocop:enable Style/CaseEquality
   end
 end

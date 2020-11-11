@@ -5,6 +5,8 @@ class ConvertAHashyStringToAHash
   end
 
   def solution
+    # rubocop:disable Security/Eval
     eval(@input)
+    # rubocop:enable Security/Eval
   end
 end

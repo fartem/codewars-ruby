@@ -9,6 +9,8 @@ class WithoutTheLetterE
     return @input if @input.empty?
 
     output = @input.scan(/[eE]/).size
+    # rubocop:disable Style/StringLiterals
     output.zero? ? "There is no \"e\"." : output.to_s
+    # rubocop:enable Style/StringLiterals
   end
 end
