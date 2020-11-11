@@ -40,7 +40,7 @@ Profile on Codewars: [fartem](https://www.codewars.com/users/fartem).
 | Indexed capitalization | [Link](https://www.codewars.com/kata/59cfc09a86a6fdf6df0000f1) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/indexed_capitalization.rb) |
 | isEven? - Bitwise Series | [Link](https://www.codewars.com/kata/592a33e549fe9840a8000ba1) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/is_even_bitwise_series.rb) |
 | Random case | [Link](https://www.codewars.com/kata/57073869924f34185100036d) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/random_case.rb) |
-| reverseIt | [Link](https://www.codewars.com/kata/557a2c136b19113912000010) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/reverseIt.rb) |
+| reverseIt | [Link](https://www.codewars.com/kata/557a2c136b19113912000010) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/reverse_it.rb) |
 | Reverse Factorials | [Link](https://www.codewars.com/kata/58067088c27998b119000451) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/reverse_factorials.rb) |
 | Reverser | [Link](https://www.codewars.com/kata/58069e4cf3c13ef3a6000168) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/reverser.rb) |
 | Sorted? yes? no? how? | [Link](https://www.codewars.com/kata/580a4734d6df748060000045) | [Link](https://github.com/fartem/codewars-ruby/blob/master/codewars/kyu7/sorted_yes_no_how.rb) |
