@@ -5,6 +5,6 @@ class ConvertAStringToAnArray
   end
 
   def solution
-    @input.split(' ')
+    @input.split
   end
 end
